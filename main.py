@@ -9,7 +9,7 @@ with sr.Microphone() as srm:
        
        if text in "Hello":
          print("How are you?")
-       elif text in ["Good", "Good, Thanks", "Not Good", "Good And You"]:
+       elif text in ["Good", "Good, Thanks", "Not Good", "Good And You", "Thank You And You"]:
          print("Nice To meet You")
        elif text in "Close":
         sys.exit(0)
